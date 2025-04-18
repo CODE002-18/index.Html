@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Developer Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      font-family: 'Segoe UI', sans-serif;
+      color: #e0e0e0;
+      overflow-x: hidden;
+    }
+
+    /* Common Styles */
+    section {
+      max-width: 800px;
+      margin: 100px auto;
+      padding: 30px;
+      background: #1a1a1a;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 255, 128, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #00ff80;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #00ff8044;
+      padding-bottom: 10px;
+    }
+
+    .category {
+      margin-bottom: 30px;
+    }
+
+    .category h3 {
+      font-size: 1.3rem;
+      color: #66ffcc;
+      margin-bottom: 12px;
+      border-left: 4px solid #00ff80;
+      padding-left: 12px;
+    }
+
+    .category ol {
+      padding-left: 20px;
+      list-style-position: inside;
+    }
+
+    .category li {
+      margin-bottom: 8px;
+      color: #cccccc;
+      font-size: 1rem;
+      line-height: 1.6;
+      transition: color 0.3s;
+    }
+
+    .category li:hover {
+      color: #00ff80;
+      cursor: default;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .category h3 {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Education Section -->
+  <section>
+    <h2>🎓 Education</h2>
+
+    <div class="category">
+      <h3>1. 💡 12th Grade</h3>
+      <ol>
+        <li><strong>Board:</strong> UP BOARD</li>
+        <li><strong>Year of Completion:</strong> 2023</li>
+        <li><strong>Stream:</strong> Science (with Biology)</li>
+        <li><strong>Percentage:</strong> 68% Without study</li>
+      </ol>
+    </div>
+
+    <div class="category">
+      <h3>2. 💊 Bachelor of Pharmacy (B. Pharma)</h3>
+      <ol>
+        <li><strong>University:</strong> .... University</li>
+        <li><strong>Year of Completion:</strong> Never</li>
+        <li><strong>Specialization:</strong> Pharmaceutical Sciences</li>
+        <li><strong>Current CGPA:</strong> 8.7</li>
+      </ol>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Developer Skills</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      font-family: 'Segoe UI', sans-serif;
+      color: #e0e0e0;
+      overflow-x: hidden;
+    }
+
+    /* Skills Section */
+    .skills-section {
+      max-width: 800px;
+      margin: 100px auto;
+      padding: 30px;
+      background: #1a1a1a;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 255, 128, 0.1);
+    }
+
+    .skills-section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #00ff80;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #00ff8044;
+      padding-bottom: 10px;
+    }
+
+    .skill-category {
+      margin-bottom: 30px;
+    }
+
+    .skill-category h3 {
+      font-size: 1.3rem;
+      color: #66ffcc;
+      margin-bottom: 12px;
+      border-left: 4px solid #00ff80;
+      padding-left: 12px;
+    }
+
+    .skill-category ol {
+      padding-left: 20px;
+      list-style-position: inside;
+    }
+
+    .skill-category li {
+      margin-bottom: 8px;
+      color: #cccccc;
+      font-size: 1rem;
+      line-height: 1.6;
+      transition: color 0.3s;
+    }
+
+    .skill-category li:hover {
+      color: #00ff80;
+      cursor: default;
+    }
+
+    @media (max-width: 600px) {
+      .skills-section {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .skills-section h2 {
+        font-size: 1.5rem;
+      }
+
+      .skill-category h3 {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Skills Section -->
+  <section class="skills-section">
+    <h2>🛠️ Skills</h2>
+
+    <div class="skill-category">
+      <h3>1. 👨‍💻 Front-End Development</h3>
+      <ol>
+        <li>HTML5, CSS3, JavaScript (ES6+)</li>
+        <li>React.js, Next.js</li>
+        <li>Tailwind CSS, Bootstrap, Sass</li>
+        <li>Responsive Design & Cross-Browser Compatibility</li>
+      </ol>
+    </div>
+
+    <div class="skill-category">
+      <h3>2. 🧠 Back-End Development</h3>
+      <ol>
+        <li>Node.js, Express.js</li>
+        <li>MongoDB, Firebase, MySQL</li>
+        <li>RESTful APIs, Authentication (JWT, OAuth)</li>
+      </ol>
+    </div>
+
+    <div class="skill-category">
+      <h3>3. 🧰 Tools & Workflow</h3>
+      <ol>
+        <li>Git, GitHub, VS Code</li>
+        <li>NPM, Webpack, Vite</li>
+        <li>Figma, Adobe XD (UI/UX Design)</li>
+        <li>Postman, Chrome DevTools</li>
+      </ol>
+    </div>
+
+    <div class="skill-category">
+      <h3>4. 🚀 Other Skills</h3>
+      <ol>
+        <li>SEO Basics & Performance Optimization</li>
+        <li>CMS: WordPress, Sanity.io</li>
+        <li>Deployment: Netlify, Vercel, Heroku</li>
+      </ol>
+    </div>
+  </section>
+
+</body>
+</html>
